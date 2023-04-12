@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cloud.SpringbootCloudDemo.model.Employee;
 
 @RestController
-@RequestMapping("/api/v1/")
 public class CloudDemoController {
 	
  @GetMapping("/employeeDetails")
